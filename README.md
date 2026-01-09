@@ -45,6 +45,10 @@ As mentioned above, I like that I can build parts outside of the main page and t
 
 While the components are great, they also tend to easily confuse me when it comes to styling. It took me some time to understand how each component interacts with each other and which style is being used. At the moment, I have defaulted to my standard Windows 95 style but if I have time, I will do some more research on modern CSS and making it prettier.
 
+# Update on CSS
+
+I decided to connect it to my Week4 project and style it similar so it can be used together.
+
 ## Issues:
 
 I set up my initial code and style on Thursday however on opening VSCode on Friday, I was unable to open the code or pull the latest version of Github. I assume it has something to do with my branches. I also noticed that my file was within a folder. I was also not able to deploy on render as it would through the same error (couldn't find a package-lock.json file). To avoid any time being wasted by re-doing everything or accidentally deleting all my code, I decided to set up a new repo, clone it on my machine and copy the code across (hence why there were so many lines inserted within the first push). The original code base is here: https://github.com/Culibean/week6-assignment
