@@ -6,7 +6,7 @@
 }
 
 .large-image-container {
-  width: 900px;
+  width: 950px;
   height: 400px;
   margin: 20px auto;
   display: flex;
@@ -19,4 +19,10 @@
   justify-content: center;
   gap: 1.5rem;
   margin-top: 1rem;
+}
+
+@media (max-width: 800px) {
+  .large-image {
+    max-width: 600px;
+  }
 }
