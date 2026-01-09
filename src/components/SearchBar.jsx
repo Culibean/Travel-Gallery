@@ -5,11 +5,11 @@ export default function SearchBar({ value, onChange }) {
     <div className="searchbar">
       <input
         type="text"
-        placeholder="Find your favourite images..."
+        placeholder="Find your favourite travel images..."
         value={value}
         onChange={(e) => onChange(e.target.value)}
       />
-      <button>Search</button>
+      {/* <button>Search</button> */}
     </div>
   );
 }

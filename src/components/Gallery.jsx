@@ -6,19 +6,23 @@ import Buttons from "./Buttons";
 
 //TODO: Create a gallery with thumbnails, main view image and buttons to control gallery
 
-export default function Gallery() {
+export default function Gallery({ searchTerm }) {
   const [photos, setPhotos] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0); //for buttons
 
   useEffect(() => {
     async function getPhotos() {
-      const response = await fetch(import.meta.env.VITE_UNSPLASH_API_URL);
+      const url = `https://api.unsplash.com/search/photos?query=${
+        searchTerm || "travel"
+      }&per_page=30&client_id=${import.meta.env.VITE_UNSPLASH_API_URL}`;
+      const response = await fetch(url);
       const data = await response.json();
 
       setPhotos(data.results || []);
+      setCurrentIndex(0);
     }
     getPhotos();
-  }, []);
+  }, [searchTerm]);
 
   const currentPhoto = photos[currentIndex];
 
