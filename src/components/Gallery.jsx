@@ -40,11 +40,11 @@ export default function Gallery({ searchTerm }) {
 
   return (
     <div>
+      <Buttons onNext={showNext} onPrev={showPrev} />
+
       <LargeImage photo={currentPhoto} />
 
       <Thumbnail photos={photos} onClick={handleThumbnailClick} />
-
-      <Buttons onNext={showNext} onPrev={showPrev} />
     </div>
   );
 }
