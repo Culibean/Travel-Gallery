@@ -65,7 +65,7 @@ I was looking into adding a placeholder (conditional rendering) showing a messag
 
 ## Summary
 
-I really enjoyed this project, apart from the massive Git error and having to copy over code on the second day. I beliebe though this is due to me having a folder within a folder ad not being careful enough with my branches. I did not use branches in my new project due to being worried of making another mistake but it's definitely something I want to make a habit of.
+I really enjoyed this project, apart from the massive Git error and having to copy over code on the second day. I believe though this is due to me having a folder within a folder ad not being careful enough with my branches. I did not use branches in my new project due to being worried of making another mistake but it's definitely something I want to make a habit of.
 
 # Resources
 
