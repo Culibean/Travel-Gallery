@@ -76,3 +76,7 @@ https://www.w3schools.com/react/react_events.asp
 https://mimo.org/glossary/react/events
 https://www.codecademy.com/resources/docs/react
 https://www.youtube.com/watch?v=_AprVrgnq4w
+
+# Planning:
+
+https://www.figma.com/board/CM4AUZeU6xPqUcZd3PssjN/Week-6-Assignment---React-Gallery?node-id=0-1&p=f&t=Yym6GKPaBw7YG1hO-0
